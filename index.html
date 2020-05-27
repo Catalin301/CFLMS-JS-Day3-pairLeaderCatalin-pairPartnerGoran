@@ -18,7 +18,7 @@
 
 
 
-		function crystalGazer2(){
+		/*function crystalGazer2(){
 			var numberChildren = prompt("type how many children you have!")
 			var partnerName = prompt("type your partner name")
 			var location = prompt("type your location!")
@@ -27,7 +27,7 @@
 			return result;
 		}
 
-		document.write(crystalGazer2());
+		document.write(crystalGazer2());*/
 
 		/*function ageCalculator(birthyear, currentyear) {
 
@@ -69,10 +69,14 @@
 
 
     		var volume= width * height * depth;
+
     		return [area, volume];
+
     		/*for(var i=0;i<area+arrow.length;i++)*/
 
     	}
+
+    		document.write();
 
 
 
@@ -93,7 +97,7 @@
     			total=total*array[i];
     		}
 
-     			document.write("<br>" + total);
+     			document.write("<br>" + total+"<br>");
 
     	}	
 
@@ -102,6 +106,20 @@
 
 
     	/*Intermediate Beispiel 1*/
+
+
+		const toTitleCase = (phrase) => {
+  		return phrase
+    	.toLowerCase()
+    	.split(' ')
+    	.map(word => word.charAt(0).toUpperCase() + word.slice(1))
+    	.join(' ');
+};
+
+		let result = toTitleCase("i am a web developer");
+		document.write(result);
+
+
 
 
 
