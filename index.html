@@ -14,9 +14,20 @@
 			return result;
 		}
 
-		document.write(crystalGazer(3, "Rebecca", "Vienna", "Developer"));
+		document.write(crystalGazer(3, "Rebecca", "Vienna", "Developer" +"<br>"));
 
-		
+
+
+		function crystalGazer2(){
+			var numberChildren = prompt("type how many children you have!")
+			var partnerName = prompt("type your partner name")
+			var location = prompt("type your location!")
+			var jobTitle = prompt("type our job title!")
+			var result = "You will be a " + jobTitle + " in " + location + " and married to " + partnerName + " with " + numberChildren + " children! " +"<br>";
+			return result;
+		}
+
+		document.write(crystalGazer2());
 
 		/*function ageCalculator(birthyear, currentyear) {
 
@@ -44,6 +55,32 @@
     		console.log(degrees_to_radians(90));
 
 
+    	/*Beispiel 5 =noch nicht fertig*/
+
+    	function box(width,height,depth){
+
+    		/*var arrow =[3,5,7];*/
+
+    		var width =  3;
+    		var height=  5;
+    		var depth =  7;
+
+    		var area= width * height;
+
+
+    		var volume= width * height * depth;
+    		return [area, volume];
+    		/*for(var i=0;i<area+arrow.length;i++)*/
+
+    	}
+
+
+
+
+
+    	
+
+
     	/*Beispiel 6*/
 
     	function sum(){
@@ -62,6 +99,12 @@
 
 
     			sum();
+
+
+    	/*Intermediate Beispiel 1*/
+
+
+
 
 
 
