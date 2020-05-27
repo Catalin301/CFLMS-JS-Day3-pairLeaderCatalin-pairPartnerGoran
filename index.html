@@ -6,8 +6,11 @@
 <body>
 
 	<script>
+
+		/*Beispiel 1*/
+
 		function crystalGazer(numberChildren, partnerName, location, jobTitle){
-			var result = "You will be a " + jobTitle + " in " + location + " and married to " + partnerName + " with " + numberChildren + " children! " ;
+			var result = "You will be a " + jobTitle + " in " + location + " and married to " + partnerName + " with " + numberChildren + " children! " +"<br>";
 			return result;
 		}
 
@@ -33,18 +36,32 @@
 
 
     	/*Beispiel 4*/
+
     	function degrees_to_radians(degrees){
 
     		return degrees*Math.PI / 180;
-
-    }
+		 }
     		console.log(degrees_to_radians(90));
 
 
-    		/*Beispiel 6*/
+    	/*Beispiel 6*/
 
-    		function sum	
+    	function sum(){
+    		var array =[1,3,7,10,2];
 
+    		var total = 1;
+
+    		for(var i=0;i<array.length;i++){
+
+    			total=total*array[i];
+    		}
+
+     			document.write("<br>" + total);
+
+    	}	
+
+
+    			sum();
 
 
 
