@@ -25,7 +25,16 @@
 	document.write("You are either " + age + " or " + age2);
 */
 
+// BASIC 5
 
+	function box(area, volume) {
+		return area * volume;
+	
+}	
+	var area = Math.round(3.74165738677 * 3.74165738677);
+	var volume = area * 5;
+	document.write("The area of the box is: " + area + "." + "<br>");
+	document.write("The volume of the box is: " + volume + ".");
 
 
 
